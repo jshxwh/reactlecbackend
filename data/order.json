@@ -1,0 +1,49 @@
+{
+  "shippingInfo": {
+    "address": "blc tenement",
+
+    "city": "taguig",
+
+    "phoneNo": "8389889",
+
+    "postalCode": "4196",
+
+    "country": "philippines"
+  },
+
+  "user": "63e4622e0969421f2e30edfd",
+
+  "orderItems": [
+    {
+      "name": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+
+      "quantity": 2,
+
+      "image": "https://res.cloudinary.com/dxqnpv8xc/image/upload/v1677123282/cld-sample-5.jpg",
+
+      "price": 299,
+
+      "product": "63e4526a446efc52f06a39cc"
+    }
+  ],
+
+  "paymentInfo": {
+    "id": 123456,
+
+    "status": "pending"
+  },
+
+  "paidAt": "2023-03-02-27T01:50:09.246Z",
+
+  "itemsPrice": 26.99,
+
+  "taxPrice": 10.0,
+
+  "shippingPrice": 12.5,
+
+  "totalPrice": 26.99,
+
+  "orderStatus": "Processing",
+
+  "deliveredAt": "2023-03-22-28T01:50:09.246Z"
+}
