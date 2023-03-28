@@ -9,7 +9,7 @@ const sendToken = (user, statusCode, res) => {
     ),
     httpOnly: true, // client can't get cookie by script
     secure: true, // only transfer over https
-    sameSite: true, // only sent for requests to the same FQDN as the domain in the cookie
+    sameSite: "none", // only sent for requests to the same FQDN as the domain in the cookie
   };
   res.status(statusCode).cookie("token", token, options).json({
     success: true,
