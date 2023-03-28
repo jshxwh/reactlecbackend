@@ -11,7 +11,7 @@ const order = require("./routes/order");
 app.use(express.json({ limit: "100mb" }));
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://reactlecfrontend.onrender.com",
     credentials: true,
     exposedHeaders: ["Set-Cookie"],
   })
