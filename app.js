@@ -13,7 +13,6 @@ app.use(
   cors({
     origin: "https://reactlecfrontend.onrender.com",
     credentials: true,
-    exposedHeaders: ["Set-Cookie"],
   })
 );
 app.use(express.urlencoded({ limit: "100mb", extended: true }));
